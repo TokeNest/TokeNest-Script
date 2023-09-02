@@ -1,0 +1,22 @@
+{
+  "name": "tokenest-script",
+  "version": "1.0.0",
+  "description": "TokenNest Contract Execution and Management Tool",
+  "main": "./src/index.ts",
+  "scripts": {
+    "dev": "ts-node ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TokeNest/TokeNest-Script.git"
+  },
+  "keywords": [
+    "smartContract"
+  ],
+  "author": "TokeNest",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TokeNest/TokeNest-Script/issues"
+  },
+  "homepage": "https://github.com/TokeNest/TokeNest-Script#readme"
+}
