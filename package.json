@@ -4,7 +4,7 @@
   "description": "TokenNest Contract Execution and Management Tool",
   "main": "./src/index.ts",
   "scripts": {
-    "dev": "ts-node"
+    "dev": "ts-node ./src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -18,11 +18,5 @@
   "bugs": {
     "url": "https://github.com/TokeNest/TokeNest-Script/issues"
   },
-  "homepage": "https://github.com/TokeNest/TokeNest-Script#readme",
-  "devDependencies": {
-    "@types/node": "^20.5.9"
-  },
-  "dependencies": {
-    "dotenv": "^16.3.1"
-  }
+  "homepage": "https://github.com/TokeNest/TokeNest-Script#readme"
 }
