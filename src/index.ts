@@ -9,10 +9,10 @@ const provider = new ethers.providers.JsonRpcProvider('https://api.baobab.klaytn
 const abi = contractInfo.routerAbi
 
 // Create wallet to private key
-const wallet = new ethers.Wallet(contractInfo.walletAddress, provider as JsonRpcProvider)
+const wallet = new ethers.Wallet(contractInfo.walletAddress!, provider as JsonRpcProvider)
 
 // Create smart contract instance
-const contract = new ethers.Contract(contractInfo.contractAddress, abi, wallet)
+const contract = new ethers.Contract(contractInfo.contractAddress!, abi, wallet)
 // Run swap token every 5 sec
 async function swapTokens() {
     //"n a 50% chance, SWAP from A to B or from B to A

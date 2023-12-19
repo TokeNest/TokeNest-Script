@@ -18,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/TokeNest/TokeNest-Script/issues"
   },
-  "homepage": "https://github.com/TokeNest/TokeNest-Script#readme"
+  "homepage": "https://github.com/TokeNest/TokeNest-Script#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ethers": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5"
+  }
 }
