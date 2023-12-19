@@ -17,3 +17,5 @@ Example :
 yarn install
 yarn dev ./src/autoTokenSwap.ts
 ```
+
+contractInfo.ts 파일 내 token0AmountIn, token1AmountIn의 amount를 조절해 테스트하시면 됩니다.
